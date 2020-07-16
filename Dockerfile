@@ -8,5 +8,6 @@ COPY kanpur.jpg /var/www//html
 COPY nana.jpg /var/www/html
 COPY ganga.jpg /var/www/html
 COPY kampur_centeral.jpg /var/www/html
+COPY anonymous.jpg /var/www/html
 EXPOSE 80
 CMD /usr/sbin/httpd -DFOREGROUND
